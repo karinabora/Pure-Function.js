@@ -1,0 +1,22 @@
+// Given the same input, will always return the same output.Produces no side effects.
+
+let x = 2;
+
+const add = (y) => {
+  x += y;
+  console.log(x);
+};
+
+add(4)
+
+console.log( x===6)
+
+// //////////////////////////////////////////////////////////////////////////////////////////
+
+function n(y){
+  x+=y
+  console.log(x);
+}
+n(2)
+console.log(x===4);
+// /////////////////////////////////////////////////////////////////////////////////////////
